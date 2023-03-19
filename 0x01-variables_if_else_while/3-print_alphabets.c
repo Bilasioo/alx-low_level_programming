@@ -12,7 +12,7 @@ char l;
 
 for (k = 'A'; k <= 'Z'; k++)
 putchar(k);
-for (l = 'a'; l <= 'z'; k++)
+for (l = 'a'; l <= 'z'; l++)
 putchar(l);
 putchar('\n');
 return (0);
