@@ -9,7 +9,7 @@ int main(void)
 {
 char k;
 
-for (k = 'a'; k <= 'z'; k++);
+for (k = 'a' ; k <= 'z' ; k++)
 /*first case is initialize the loop where loop starts (a)*/
 /*2nd is the condition that will stop the loo (z)*/
 /*depending on purpose of the loop you can either incre/decrement the loop*/
