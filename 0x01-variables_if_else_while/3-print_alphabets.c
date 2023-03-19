@@ -8,11 +8,13 @@
 int main(void)
 {
 char k;
+char l;
 
-for (k = 'A'; k <= 'Z'; k++)K;
+for (k = 'A'; k <= 'Z'; k++)
 putchar(k);
+for (l = 'a'; l <= 'z'; k++)
+putchar(l);
 putchar('\n');
 return (0);
 }
-for (k = 'a' ; k <= 'z' ; k++)
-putchar(k);
+/*end program*/
