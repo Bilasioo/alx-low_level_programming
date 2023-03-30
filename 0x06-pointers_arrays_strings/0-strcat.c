@@ -1,14 +1,12 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - concatenates two strings
- *dest - input values
- *src - input value
- * Return: void
- */
-
-char *_strcat(char *dest, char *src);
+* main: - concatenates two strings
+* @dest: input value
+* @src: input value
+*
+* Return: void
+*/
+char *_strcat(char *dest, char *src)
 {
 int i;
 int j;
@@ -25,6 +23,7 @@ dest[i] = src[j];
 i++;
 j++;
 }
+
 dest[i] = '\0';
 return (dest);
 }
