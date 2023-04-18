@@ -52,16 +52,14 @@ return (dest);
  * @owner: owner of the dog
  *
  * Return: pointer to the new dog (Success), NULL otherwise
- *
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
+{
 dog_t *dog;
 int len1, len2;
-
 len1 = _strlen(name);
 len2 = _strlen(owner);
-
 dog = malloc(sizeof(dog_t));
 if (dog == NULL)
 return (NULL);
@@ -81,7 +79,6 @@ return (NULL);
 _strcpy(dog->name, name);
 _strcpy(dog->owner, owner);
 dog->age = age;
-
 return (dog);
 }
 
