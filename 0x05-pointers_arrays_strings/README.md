@@ -1,1 +1,1 @@
-C pointers, arrays and strings.
+Update C pointers, arrays and strings.
