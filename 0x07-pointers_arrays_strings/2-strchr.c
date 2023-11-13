@@ -1,20 +1,22 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _strchr - Entry point
+ * @c: input character to check for
+ * @s: input string to check for
  *
- * Return: Always 0 (Success)
+ * Return: 0 or pointer to spot in s with c
  */
-int main(void)
-{
+
 char *_strchr(char *s, char c)
 {
-int i = 0;
-
-for (; s[i] >= '\0'; i++)
+int i;
+for (i = 0; *(s + i); i++)
 {
-if (s[i] == c)
-return (&s[i]);
+if (*(s + i) == c)
+return (s + i);
 }
+if (*(s + i) = c)
+
+return (s + i);
 return (0);
-}
 }
