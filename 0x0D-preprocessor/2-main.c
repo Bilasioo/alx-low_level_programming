@@ -4,7 +4,7 @@
  *
  * Return: 0(on success)
  */
-int ain(void)
+int main(void)
 {
 printf("%s\n", __FILE__);
 return (0);
