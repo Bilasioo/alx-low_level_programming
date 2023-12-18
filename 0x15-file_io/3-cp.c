@@ -10,6 +10,7 @@
  * Return: no return
  *
  */
+
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
@@ -75,4 +76,3 @@ int main(int argc, char *argv[])
 	}
 	return 0;
 }
-
